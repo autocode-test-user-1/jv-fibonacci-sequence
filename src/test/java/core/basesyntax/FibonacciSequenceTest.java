@@ -10,7 +10,7 @@ public class FibonacciSequenceTest {
     @Test
     public void getFibonacciSequence() {
         FibonacciSequence sequence = new FibonacciSequence();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 1; i < 20; i++) {
             int actualResult = sequence.getFibonacciNumber(i);
             int expectedResult = FIBONACCI_SEQUENCE[i];
             Assert.assertEquals(
